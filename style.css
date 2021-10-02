@@ -10,3 +10,61 @@
   background-color: var(--bs-light);
   border-radius: .3rem;  
 }
+
+
+.navbar{
+  background-color: #202833;
+  z-index: 2;
+}
+
+.nav-link{
+  color:#66FCF1;
+  font-size: 24px;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width:85vw;
+}
+
+.nav-item{
+  margin-right:1.5vw;
+}
+
+.navbar-toggler {
+  border-color: #66FCF1;
+}
+
+.nav-link:hover, .nav-link:focus{
+  color: white;
+}
+
+.arcane{
+  height:50px;
+  width:auto;
+}
+
+.fas{
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 800px){
+  .arcane{
+      height:28px;
+      width:auto;
+  }
+
+  .fas{
+      font-size: 1.2em;
+  }
+
+  .navbar-toggler-icon{
+      font-size: 0.7em;
+  }
+
+  .nav-link{
+      font-size: 18px;
+  }
+}
