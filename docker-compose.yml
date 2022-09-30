@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  tagger:
+    image: golang:1.18
+    container_name: tagger
+    command: ['sleep', 'inf']
+    volumes:
+      - .:/app
+      - gocache:/go
+    ports:
+      - '3620:3620'
+    environment:
+      - DEVELOPMENT=true
+      - DB_URL=''
+
+volumes:
+  gocache:
+
+networks:
+  default:
+    external:
+      name: sayan
