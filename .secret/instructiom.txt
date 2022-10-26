@@ -1,2 +1,16 @@
-Create a folder wid ur name 
-and make 4 prs
+Fork the repository
+Create a folder with your name
+and make 4 prs.
+
+How to make a pr?
+  Normal method:
+    -After fork, clone the repository onto your local machine
+    -Make changes in your local system in any ide of your choice
+    -Commit changes to a new branch in your repository
+    -Go to your forked repository. Option for pr to main branch of original repo should be available
+    -Make pr. Wait for results
+  Very easy method:
+    -Edit file directly on github
+    -Commit changes to new branch
+    -Create pr from forked repo branch to original repo
+    -Wait for results 
