@@ -13,12 +13,12 @@
 
 
 .navbar{
-  background-color: #202833;
+  background-color: #46494d;
   z-index: 2;
 }
 
 .nav-link{
-  color:#66FCF1;
+  color:#66d4fc;
   font-size: 24px;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .arcane{
-  height:50px;
+  height:60px;
   width:auto;
 }
 
@@ -65,6 +65,6 @@
   }
 
   .nav-link{
-      font-size: 18px;
+      font-size: 20px;
   }
 }
