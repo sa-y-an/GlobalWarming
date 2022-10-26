@@ -3,16 +3,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
+    background-color: black;
     overflow: hidden;
 }
 
+h2 {
+    position: relative;
+    font-family: castellar;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
 h1 {
     position: relative;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(20px + 5vw);
     font-weight: 700;
-    color: #fff;
+    color: white;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-shadow: 0 0 0.15em #1da9cc;
